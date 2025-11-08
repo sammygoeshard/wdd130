@@ -22,6 +22,10 @@ aside img {
   height: auto;
 }
 
+nav {
+  color: #eee;
+}
+
 nav a {
 color: white;
 padding: 10px;
