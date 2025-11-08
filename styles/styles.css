@@ -2,10 +2,15 @@ main {
     max-width: 840px;
 }
 
+p {
+    padding: 0;
+}
+
+
 aside {
   width: 20rem;
   margin: 1rem;
-  border: 1px solid rgb(0 0 0 / 0.2); /* 1️ */
+  border: 1px solid rgb(0 0 0 / 0.2);
   padding: 1rem;
   background-color: #eee;
   color: #333;
@@ -17,9 +22,22 @@ aside img {
   height: auto;
 }
 
+nav a {
+color: white;
+padding: 10px;
+display: block;
+}
+
+h1 {
+  color: #333;
+}
+
 main img {
   width: 150px;
   height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
 }
 
 p {
