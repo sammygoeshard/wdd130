@@ -23,7 +23,8 @@ aside img {
 }
 
 nav {
-  color: #eee;
+  background-color: #333;
+  padding: 2px;
 }
 
 nav a {
