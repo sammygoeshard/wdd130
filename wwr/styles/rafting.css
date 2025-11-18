@@ -1,8 +1,10 @@
 :root {
-    --primary-color: #2a9d8f;
-    --secondary-color: #e9c46a;
-    --accent1-color: #f4a261;
-    --accent2-color: #e76f51;
+    --primary-color: #004d60; /* Dark Teal */
+    --secondary-color: #2b8a74; /* Medium Teal */
+    --accent1-color: #f07f2e;   /* Vibrant Orange */
+    --accent2-color: #F4eBDC;
+    --text-dark: #000000;
+    --text-light: #FFFFFF;
     --heading-font: 'Trebuchet MS', sans-serif;
     --body-font: 'Arial', sans-serif;
 }
@@ -15,7 +17,8 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color)
+    background-color: var(--accent2-color);
+    color: var(--text-dark)
 }
 
 header, main, footer {
@@ -27,17 +30,24 @@ header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     padding: 20px 0;
-    text-align: center;
+    text-align: left;
 }
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+    color: #333333;
+}
+
+nav a {
+    color: var(--text-light); 
+    text-decoration: none;
+    padding: 8px 12px;
 }
 
 .socialmedia img {
@@ -69,7 +79,7 @@ h1 {
     text-align: center;
     opacity: 0.90;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--text-light);
 }
 
 article {
@@ -80,9 +90,42 @@ article {
     border-radius: 8px;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: var(--text-light);
+    background-color: var(--accent1-color);
+    opacity: 0.90;
+    width: 800px;
+    padding: 10px 10px 5px 10px;
+    bottom: 10px;
+    border-radius: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero article p {
+    color: var(--text-light);
+    margin: 0;
+    padding: 0;
+}
+
 .hero article img {
     float: right;
-    width: 200px;
+    width: 100px;
     height: auto;
     margin-left: 16px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+section h2 {
+    background-color: var(--accent1-color);
+    color: var(--text-light);
+    margin: 0;
+    padding: 10px 16px;
+    opacity: 1.0; text-align: center;
 }
