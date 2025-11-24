@@ -1,8 +1,6 @@
 
 :root {
-  --primary-color: #004d60;
-  --secondary-color: #2b8a74;
-  --accent1-color: #f07f2e;
+   --accent1-color: #f07f2e;
   --accent2-color: #F4EBDC;
   --text-dark: #000000;
   --text-light: #FFFFFF;
@@ -126,7 +124,7 @@ nav a:hover, nav a:focus {
 .hero article img { 
   width: 84px; height: 84px; 
   border-radius: 6px; 
-  float: none; 
+  float: right; 
 }
 
 section { margin: 1.25rem; padding: 0; }
